@@ -30,23 +30,27 @@ def process_chapter(base_url, chap_name, rel_url, index):
 
 openCC = OpenCC('custom')
 
-if __name__ == '__main__':
+def main(url):
     # Make sure the chapter url is from ztjxsw.cn
     # pool = ThreadPoolExecutor(max_workers=10)
-    homepage = input('Novel Homepage:\n')
+    os.chdir('novels')
+    homepage = url
     homepage_get = requests.get(homepage)
     homepage_get.raise_for_status()
     hometree = html.fromstring(homepage_get.content)
     novel_name = hometree.xpath('//h1/text()')[0]
+    if novel_name not in os.listdir('.'):
+        os.mkdir(novel_name)
+    os.chdir(novel_name)
     # os.chdir('novels')
     # os.mkdir('{}'.format(novel_name))
     # os.chdir('./{}'.format(novel_name))
-    chapter_names = hometree.xpath('//ul/li/a/text()')
-    chapter_urls = hometree.xpath('//ul/li/a/@href')
+    chapter_names = hometree.xpath('//div[@class="body "]/ul/li/a/text()')
+    chapter_urls = hometree.xpath('//div[@class="body "]/ul/li/a/@href')
     print(len(chapter_urls))
     print(len(chapter_names))
     for index, (url, name) in enumerate(zip(chapter_urls, chapter_names)):
-        if url[:10] == '/html/341/':
+        if url[:6] == '/html/':
             process_chapter(
                           homepage,
                           name,
@@ -54,3 +58,7 @@ if __name__ == '__main__':
                     index
                     )
     # pool.shutdown()
+
+
+if __name__ == '__main__':
+    main(input('Novel Homepage:\n>'))

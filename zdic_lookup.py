@@ -8,16 +8,17 @@ def get_page(word):
     try:
         webpage.raise_for_status()
     except:
-        print('An Error Occured')
+        return 'An Error Occured'
         return None
     if 'No results found searching for' in webpage.text:
-        print('No Definition Found')
+        return 'No Definition Found'
     else:
         webtree = html.fromstring(webpage.content)
         for definition in webtree.xpath('//div[@class="defs"]/text()'):
-            print(definition)
+            return definition
 
 
-while True:
-    word = input('Enter a word')
-    get_page(word)
+if __name__ == '__main__':
+    while True:
+        word = input('Enter a word')
+        get_page(word)
