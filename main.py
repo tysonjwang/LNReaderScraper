@@ -33,9 +33,23 @@ class Window(QtWidgets.QWidget):
         self.mainPage = QtWidgets.QWidget()
         self.mainPageLayout = QtWidgets.QVBoxLayout()
 
+        mainLabels = QtWidgets.QHBoxLayout()
+        mainLabels.addWidget(QtWidgets.QLabel('Novel Name/Url:'))
+        mainLabels.addWidget(QtWidgets.QLabel('Optional: # of Chapters'))
+        mainLabelWidget = QtWidgets.QWidget()
+        mainLabelWidget.setLayout(mainLabels)
+        self.mainPageLayout.addWidget(mainLabelWidget)
+
         novelSubmit = QtWidgets.QLineEdit()
         novelSubmit.returnPressed.connect(self.novelSubmitted)
-        self.mainPageLayout.addWidget(novelSubmit)
+        self.chapCountLimit = QtWidgets.QLineEdit()
+        submitLayout = QtWidgets.QHBoxLayout()
+        submitLayout.addWidget(novelSubmit)
+        submitLayout.addWidget(self.chapCountLimit)
+        submitWidget = QtWidgets.QWidget()
+        submitWidget.setLayout(submitLayout)
+        self.mainPageLayout.addWidget(submitWidget)
+        self.mainPageLayout.addWidget(QtWidgets.QLabel('Novels Completed:'))
 
         self.novelList = QtWidgets.QListWidget()
         self.novels = getAvailableNovels()
@@ -188,7 +202,11 @@ class Window(QtWidgets.QWidget):
 
     def novelSubmitted(self):
         sender = self.sender()
-        scrape_and_convert.main(sender.text())
+        if self.chapCountLimit.text() == '':
+            scrape_and_convert.main(sender.text(), -1)
+        else:
+            scrape_and_convert.main(sender.text(),
+                                    int(self.chapCountLimit.text()))
 
     def chapterClicked(self, chapter):
         self.currentChapter = chapter.text()
@@ -249,7 +267,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-l
+
 
         
         

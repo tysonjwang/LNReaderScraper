@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec97dde-09c0-49d5-af6a-d2f69ff8dd88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flashcards.py" beforeDir="false" afterPath="$PROJECT_DIR$/flashcards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/PrideAndPrejudice/chapter1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/PrideAndPrejudice/chapter2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/PrideAndPrejudice/chapter3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/帝霸/novelchapter9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/无上神王/novelchapter0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/无上神王/novelchapter1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/无上神王/novelchapter2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/无上神王/novelchapter3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/无上神王/novelchapter4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/无上神王/novelchapter5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/novels/霸皇纪/novelchapter9.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scrape_and_convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrape_and_convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdic_lookup.py" beforeDir="false" afterPath="$PROJECT_DIR$/zdic_lookup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +46,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LNReaderScraper$scrape_and_convert.coverage" NAME="scrape_and_convert Coverage Results" MODIFIED="1542757924533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LNReaderScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1543452002664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LNReaderScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1544113355380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LNReaderScraper$flashcards.coverage" NAME="flashcards Coverage Results" MODIFIED="1543365718242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LNReaderScraper$zdic_lookup.coverage" NAME="zdic_lookup Coverage Results" MODIFIED="1543358046885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LNReaderScraper$qt_demo.coverage" NAME="qt_demo Coverage Results" MODIFIED="1542757830457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -26,51 +56,61 @@
     <session id="-371721112">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="41" />
-          <entry key="py" value="16058" />
+          <entry key="py" value="18065" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="16099" />
+          <entry key="Python" value="18106" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4939">
-              <caret line="231" column="32" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
+            <state relative-caret-position="382">
+              <caret line="205" column="52" selection-start-line="205" selection-start-column="52" selection-end-line="205" selection-end-column="52" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
-                <marker date="1543451732246" expanded="true" signature="4893:5022" ph="..." />
-                <marker date="1543451732246" expanded="true" signature="5041:5358" ph="..." />
-                <marker date="1543451732246" expanded="true" signature="5788:6441" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrape_and_convert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-378">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+              <folding>
+                <marker date="1544113929967" expanded="true" signature="1260:1761" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flashcards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-507">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="1081">
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -116,9 +156,9 @@
         <option value="$PROJECT_DIR$/qt_demo.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/zdic_lookup.py" />
-        <option value="$PROJECT_DIR$/scrape_and_convert.py" />
         <option value="$PROJECT_DIR$/flashcards.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/scrape_and_convert.py" />
       </list>
     </option>
   </component>
@@ -130,7 +170,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
-    <option name="y" value="451" />
+    <option name="y" value="4" />
     <option name="width" value="1432" />
     <option name="height" value="446" />
   </component>
@@ -139,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,12 +365,12 @@
     <frame x="4" y="4" width="1432" height="892" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12086331" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12230216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.145" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrape_and_convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qt_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
@@ -451,20 +484,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flashcards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-507">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="1081">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4939">
-          <caret line="231" column="32" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
+        <state relative-caret-position="382">
+          <caret line="205" column="52" selection-start-line="205" selection-start-column="52" selection-end-line="205" selection-end-column="52" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <marker date="1543451732246" expanded="true" signature="4893:5022" ph="..." />
-            <marker date="1543451732246" expanded="true" signature="5041:5358" ph="..." />
-            <marker date="1543451732246" expanded="true" signature="5788:6441" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape_and_convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <marker date="1544113929967" expanded="true" signature="1260:1761" ph="..." />
           </folding>
         </state>
       </provider>
